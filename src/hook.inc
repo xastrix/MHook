@@ -1,0 +1,5 @@
+MH_CreateHook proto
+MH_EnableHook proto
+MH_DisableHook proto
+MH_Initialize proto
+MH_Uninitialize proto

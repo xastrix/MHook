@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\hde\hde64.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\hde\hde64.h" />
+    <ClInclude Include="..\src\hde\table64.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="..\src\hook.asm" />
+    <MASM Include="..\examples\test_hook.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\hook.inc" />
+  </ItemGroup>
+</Project>
